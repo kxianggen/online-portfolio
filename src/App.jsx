@@ -1,9 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home.jsx";
-import NotFound from "./Pages/NotFound.jsx";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./Pages/Home";
+import { NotFound } from "./Pages/NotFound";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -13,7 +12,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
