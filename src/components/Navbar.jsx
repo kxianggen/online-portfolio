@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 
 const navItems = [
-    {name: "Home", href: "#home"},
+    {name: "Home", href: "#hero"},
     {name: "About", href: "#about"},
     {name: "Skills", href: "#skills"},
     {name: "Projects", href: "#projects"},
@@ -36,8 +36,7 @@ export const Navbar = () => {
                 href="#hero"
                 >
                 <span className="relative z-10">
-                    <span className="text-glow text-foreground"> Xiang Gen </span>{" "}
-                    Portfolio
+                    <span className="text-glow text-foreground">XiangGen</span>Portfolio
                 </span>
                 </a>
 
