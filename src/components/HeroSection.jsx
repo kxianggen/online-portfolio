@@ -11,13 +11,12 @@ export const HeroSection = () => {
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                         <span className="opacity-0 animate-fade-in">Hi, I'm</span>
                         <span className="text-primary opacity-0 animate-fade-in-delay-1">{" "}Xiang Gen</span>
-                        <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">{""}/Jayson</span>
+                        <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">{" "}/ Jayson</span>
                     </h1>
 
                     <p className="text-md md:text-md text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I create stellar web experiences with modern technologies.
-                        Specializing in front-end development, I build interfaces that are
-                        both beautiful and functional.
+                    I love exploring the sweet spot where Creative Design meets Computer Science. From training AI models to crafting 
+                    pixel-perfect UIs, I’m all about building software that looks good and works smart.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">

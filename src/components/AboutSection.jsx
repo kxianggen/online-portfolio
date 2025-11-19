@@ -12,20 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+            Tech & Entrepreneur
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            I’m a Year 3 CS student at Sunway University passionate about bridging robust backend logic with beautiful frontend experiences. 
+            While my degree provides a strong foundation in algorithms, I’ve specialized in React and UX Design through Google and Meta 
+            certifications.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            Beyond the screen, I founded Sharkeys, a custom keyboard business serving 200+ happy clients using personalized data strategies. 
+            I also honed my grit and discipline working as a barista! I’m now eager to apply my technical skills and entrepreneurial spirit 
+            in an internship that solves real-world problems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
