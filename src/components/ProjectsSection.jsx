@@ -8,7 +8,7 @@ const projects = [
       "A food management system that combines a nutritional encyclopedia with real-time inventory tracking. Features a logic algorithm that prioritizes ingredients expiring soon to auto-generate relevant recipes, helping users reduce food waste.",
     image: "/projects/food.png", // Update with your actual image path
     tags: ["Scala", "ScalaFX", "SceneBuilder"],
-    demoUrl: "#",
+    demoUrl: "https://www.youtube.com/watch?v=1Vly0uoaqKE",
     githubUrl: "#",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "A Google UX Design case study for a local grocery app. Focuses on optimizing the shopping journey with an interactive in-store map that helps users locate items efficiently to speed up their shopping time.",
     image: "/projects/freshlygo.png", // Update with your actual image path
     tags: ["Figma", "UX Research", "Prototyping", "User Flow"],
-    demoUrl: "#", // Link to your Figma prototype
+    demoUrl: "https://www.canva.com/design/DAGxvzAn2B4/G1yy9BsJ4lDYmIYEeLcOdA/view?utm_content=DAGxvzAn2B4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hec97ab581c", // Link to your Figma prototype
     githubUrl: null, // UX projects usually don't have GitHub, can set to null or remove
   },
   {
