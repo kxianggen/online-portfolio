@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Layers, Brain, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -16,15 +16,15 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-            I’m a Year 3 CS student at Sunway University passionate about bridging robust backend logic with beautiful frontend experiences. 
-            While my degree provides a strong foundation in algorithms, I’ve specialized in React and UX Design through Google and Meta 
-            certifications.
+            I’m a Year 3 Computer Science student at Sunway University with a strong interest in full-stack development and user-centred design. 
+            My studies have given me a solid foundation in core CS principles, and I’ve expanded my capabilities by 
+            pursuing additional certifications in frontend development and UX design.
             </p>
 
             <p className="text-muted-foreground">
-            Beyond the screen, I founded Sharkeys, a custom keyboard business serving 200+ happy clients using personalized data strategies. 
-            I also honed my grit and discipline working as a barista! I’m now eager to apply my technical skills and entrepreneurial spirit 
-            in an internship that solves real-world problems.
+            Outside the classroom, I run a custom keyboard business, which has deepened my understanding of customer needs and product personalization. 
+            Combined with my experience working in fast-paced environments, I’ve developed strong adaptability, communication, and problem-solving skills. 
+            I’m now seeking an internship where I can apply both my technical knowledge and real-world experience to meaningful projects.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -46,13 +46,12 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <Brain className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> AI & Machine Learning</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                  Developing intelligent solutions using data-driven models and algorithms.
                   </p>
                 </div>
               </div>
@@ -74,14 +73,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <Layers className="h-6 w-6 text-primary" />
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Full-Stack Development</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Building scalable applications by bridging complex backends with user-friendly frontends.
                   </p>
                 </div>
               </div>

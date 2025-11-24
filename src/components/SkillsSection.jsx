@@ -2,27 +2,31 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend (Web & GUI)
-  { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 85, category: "frontend" },
-  { name: "React", level: 80, category: "frontend" },  
-  { name: "Tailwind CSS", level: 80, category: "frontend" }, 
-  { name: "JavaFX/ScalaFX", level: 75, category: "frontend" }, 
+  { name: "HTML", level: 70, category: "frontend" },
+  { name: "CSS", level: 65, category: "frontend" },
+  { name: "React", level: 75, category: "frontend" },
+  { name: "Tailwind", level: 70, category: "frontend" },
+  { name: "Next.js", level: 70, category: "frontend" },
+  { name: "JavaScript", level: 70, category: "frontend" },
+  { name: "TypeScript", level: 75, category: "frontend" },
 
-  // Backend (Logic, Data & AI)
-  { name: "Java (OOP)", level: 90, category: "backend" }, 
-  { name: "Python", level: 90, category: "backend" }, 
-  { name: "SQL (Oracle/PLSQL)", level: 85, category: "backend" },
-  { name: "Pandas & NumPy", level: 80, category: "backend" },
-  { name: "Scikit-learn", level: 75, category: "backend" }, 
+  { name: "Java", level: 80, category: "backend" },
+  { name: "Python", level: 80, category: "backend" },
+  { name: "SQL", level: 75, category: "backend" },
+  { name: "Supabase", level: 70, category: "backend" },
+  { name: "Pandas", level: 65, category: "backend" },
+  { name: "NumPy", level: 65, category: "backend" },
+  { name: "Scikit-learn", level: 70, category: "backend" },
+  { name: "OpenAI API / LLM Integration", level: 65, category: "backend" },
+  { name: "Inngest", level: 75, category: "backend" },
   { name: "Scala", level: 70, category: "backend" },
 
-  // Tools (DevOps & Management)
-  { name: "Git/GitHub", level: 85, category: "tools" },
+  { name: "Git", level: 70, category: "tools" },
+  { name: "GitHub", level: 75, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
-  { name: "Figma", level: 80, category: "tools" }, 
-  { name: "Oracle APEX", level: 75, category: "tools" }, 
-  { name: "Linux/Unix CLI", level: 70, category: "tools" }, 
+  { name: "Vercel", level: 70, category: "tools" },
+  { name: "Figma", level: 75, category: "tools" },
+  { name: "Linux/Unix CLI", level: 70, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

@@ -23,13 +23,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Personal Portfolio",
+    title: "Personalized AI Newsletter SaaS",
     description:
-      "A responsive personal portfolio website designed to showcase my technical skills and projects. Built with a focus on clean UI/UX principles and component reusability.",
-    image: "/projects/portfolio.PNG", // Update with your actual image path
-    tags: ["React", "Tailwind CSS", "Responsive Design"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A production-ready SaaS platform that delivers personalized, AI-curated newsletters based on user-selected interests and schedules. Built with an event-driven architecture, it automates content gathering using GPT-4 and ensures reliable, scheduled delivery through durable background workflows.",
+    image: "/projects/ai_newsletter.PNG",
+    tags: ["Next.js 15+", "Supabase", "OpenAI GPT-4", "Inngest", "TailwindCSS", "TypeScript"],
+    demoUrl: "https://jaysonnewsletter.vercel.app/signin",
+    githubUrl: "https://github.com/kxianggen/ai-saas-course",
   },
 ];
 
